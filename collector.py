@@ -6,7 +6,6 @@ try:
     r = requests.get(url, timeout=20)
 
     print("Status:", r.status_code)
-
     print(r.text[:500])
 
 except Exception as e:
